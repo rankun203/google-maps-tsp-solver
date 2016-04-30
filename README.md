@@ -7,7 +7,10 @@ This component enables Google Maps API developers to compute the fastest route t
 
 Different algorithms are selected based on the number of input locations, in order to produce results in a responsive manner. For large sets of points, the returned solution will be approximate. It is an NP-complete problem after all.
 
-Code example: ``` // Your normal Google Map object initialization var myOptions = { zoom: zoom, center: center, mapTypeId: google.maps.MapTypeId.ROADMAP }; myMap = new google.maps.Map(div, myOptions); directionsPanel = document.getElementById("my_textual_div");
+Code example: 
+
+``` 
+// Your normal Google Map object initialization var myOptions = { zoom: zoom, center: center, mapTypeId: google.maps.MapTypeId.ROADMAP }; myMap = new google.maps.Map(div, myOptions); directionsPanel = document.getElementById("my_textual_div");
 
 // Create the tsp object tsp = new BpTspSolver(myMap, directionsPanel);
 
@@ -23,6 +26,7 @@ Code example: ``` // Your normal Google Map object initialization var myOptions 
 
 // If you want the duration matrix that was used to compute the route: var durations = tsp.getDurations();
 
-// There are also other utility functions, see the source. ```
+// There are also other utility functions, see the source. 
+```
 
 To get the source, click on the 'Source' tab and follow the instructions. You will need a subversion client.
