@@ -9,7 +9,7 @@ Different algorithms are selected based on the number of input locations, in ord
 
 Code example: 
 
-``` 
+```javascript
 // Your normal Google Map object initialization 
 var myOptions = { zoom: zoom, center: center, mapTypeId: google.maps.MapTypeId.ROADMAP }; 
 myMap = new google.maps.Map(div, myOptions); 
